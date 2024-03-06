@@ -120,7 +120,7 @@ export type TranslateFunction = (
   value: TranslateValue,
   data?: TranslatePlaceholderData,
   options?: TranslateOptions
-) => LocalizedElement | LocalizedElementMap;
+) => LocalizedElement;
 
 export type InitializePayload = {
   languages: Array<string | NamedLanguage>;
